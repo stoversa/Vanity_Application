@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hello, world</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        * {
+            font-family: arial;
+        }
+
+        .user-button {
+            border: 2px solid black;
+            padding: 3px;
+            text-align: center;
+            display: inline-block;
+            margin: 5px 5px 0px;
+        }
+
+        html {
+            animation: pulse 2s;
+        }
+
+        @keyframes pulse {
+            0% {
+                background-color: gray;
+            }
+            100% {
+                background-color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="sentence-container">
+        <h1>My name is
+            <input type="text" id="name-input" required>. I was born on
+            <input class="user-input" type="date" id="date" name="birthday" min="1800-04-01" max="2018-04-30" required>
+        </h1>
+    </div>
+    <div id="results-container"></div>
+    <h2>See what other users found</h2>
+    <div id="button-container"></div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
