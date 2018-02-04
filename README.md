@@ -1,5 +1,5 @@
 # Narcisist
-This is my personal copy of the Narcisist application which was develoepd for UNC Chapel Hill's Coding Bootcamp and presented February 3rd, 2018.
+This is my personal copy of the Narcisist application which was develoepd for UNC Chapel Hill's Coding Bootcamp and presented February 3rd, 2018. To view the original project, please see: https://github.com/jonathantcallahan/project-1
 
 ## Purpose
 Narcisist is a web-based application that utilizes multiple APIs to deliver vanity information based on a user's birth-date and name input. Future plans for this application include a user-specific dashboard, horoscope, and horoscope-based compatibility information.
